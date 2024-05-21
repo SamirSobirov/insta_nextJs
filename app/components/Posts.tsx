@@ -12,25 +12,21 @@ function Post({ image, postId }: Post) {
         <div className="py-2 border-2 border-[#c4c4c4]">
 
             <div className="ml-5 mb-3 flex gap-3 items-center ">
-                <div className="w-10 h-10 bg-[#c4c4c4] rounded-full"></div>
-                <span>Bober Kurwa</span>
+                <div className="w-10 h-10 bg-[#E5E5E5] rounded-full"></div>
+                <span>Daler Sharifkulov</span>
             </div>
 
 
-            <img src={image} alt="post" className="w-full h-[600px] object-cover" />
+            <img  src={""} alt="post" className="bg-[#E5E5E5] w-full h-[400px] object-cover" />
 
             <div className="mt-5 ml-5 flex gap-3 items-center">
-                <button>
-                    {/* <IoMdHeartEmpty size={30} /> */}
-                </button>
+               
                 <Link href={'/comments/' + postId}>
                     <button>
                         {/* <TbMessageCircle size={30} /> */}
                     </button>
                 </Link>
-                <button>
-                    {/* <PiPaperPlaneTilt size={30} /> */}
-                </button>
+                
             </div>
 
             <div className="mt-5 pt-3 border-t-2 border-[#c4c4c4] flex justify-between">

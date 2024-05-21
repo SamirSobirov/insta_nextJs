@@ -1,8 +1,8 @@
 
 import Image from "next/image";
-import History from "./components/history";
+import History from "./components/History";
 import "./globals.css";
-import Post from "./components/posts";
+import Post from "./components/Posts";
 import UserRec from "./components/Userecomend";
 import axios from "axios";
 
@@ -34,7 +34,7 @@ export default async function Home() {
                             <History title='name' />
                             <History title='name' />
                             <History title='name' />
-                            <History title='name' />
+                            {/* <History title='name' /> */}
                         </>
                     }
                 </section>
@@ -51,7 +51,7 @@ export default async function Home() {
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <div className="w-[70px] h-[70px] rounded-full bg-[#c4c4c4]"></div>
-                        <span>Gradus</span>
+                        <span>Example Name</span>
                     </div>
 
                     <button>Switch</button>
