@@ -14,7 +14,7 @@ function UserRec({ name, userId }: UserRecType) {
                     <span>{name}</span>
                 </div>
 
-                <button className="text-blue-500">Follow</button>
+                <button className="text-[#0095F6]">Follow</button>
             </div>
         </Link>
     );
