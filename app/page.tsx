@@ -55,10 +55,12 @@ export default async function Home() {
                     </div>
 
                     <button>Switch</button>
+
+                     <h4 className="text-[#9c9b9b]">Suggestions for you</h4>
                 </div>
 
                 <div className="mt-5 flex items-center justify-between">
-                    <h4 className="text-[#9c9b9b]">Suggestions for you</h4>
+                   
                     <button className='text-blue-500'>See all</button>
                 </div>
 
