@@ -32,12 +32,12 @@ function Post({ image, postId }: Post) {
 
         <Link href={"/comments/" + postId}>
           <button>
-            <TbMessageCircle size={25} />
+            <TbMessageCircle size={27} />
           </button>
         </Link>
 
         <button>
-          <PiPaperPlaneTiltLight size={25} />
+          <PiPaperPlaneTiltLight size={24} />
         </button>
       </div>
 
