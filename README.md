@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Instagram with NextJS it's my first project withs Next
 
 ```bash
 npm run dev
