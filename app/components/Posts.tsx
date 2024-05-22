@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
+
 import { TbMessageCircle } from "react-icons/tb";
 import { FaRegHeart } from "react-icons/fa";
 import { PiPaperPlaneTiltLight } from "react-icons/pi";
