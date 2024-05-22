@@ -14,7 +14,7 @@ export default async function Home() {
     return (
         <div className="wrap mt-5 w-[95%] max-w-[1240px] mx-auto my-0 flex gap-10 mb-20">
             <main className="w-[800px]">
-                <section className="p-4 border-2 w-full border-[black] flex gap-4 flex-nowrap overflow-x-scroll no-scrollbar">
+                <section className="p-4 border-2 rounded-md w-full border-[black] flex gap-4 flex-nowrap overflow-x-scroll no-scrollbar">
                     {
                         <>
                             <History title='name' />
