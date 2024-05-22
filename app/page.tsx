@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import History from "./components/History";
+import History from "./components/Story";
 import "./globals.css";
 import Post from "./components/Posts";
 import UserRec from "./components/Userecomend";
@@ -49,7 +49,7 @@ export default async function Home() {
             <aside className="w-full">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                        <div className="w-[70px] h-[70px] rounded-full bg-[#c4c4c4]"></div>
+                        <div className="w-[70px] h-[70px] rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
                         <span className="text-bold text-[#0095F6]">Example Name</span>
                     </div>
 

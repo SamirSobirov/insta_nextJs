@@ -14,14 +14,14 @@ function Post({ image, postId }: Post) {
   return (
     <div className="py-2 border-2 rounded-md border-[black]">
       <div className="ml-5 mb-3 flex gap-3 items-center ">
-        <div className="w-10 h-10 bg-[#E5E5E5] rounded-full"></div>
+        <div className="w-10 h-10 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full"></div>
         <span>Sobirov S</span>
       </div>
 
       <img
         src={""}
         alt="post"
-        className="bg-[#E5E5E5] w-full h-[400px] object-cover"
+        className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 w-full h-[400px] object-cover"
       />
 
       <div className="mt-5 ml-5 flex gap-3 items-center whitespace-nowrap">
