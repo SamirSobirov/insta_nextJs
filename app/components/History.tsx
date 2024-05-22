@@ -10,9 +10,10 @@ function History(props: any) {
                 </div>
             </div>
 
-            <span className="mt-4">{props.title}</span>
+            <span className="mt-4">samir</span>
         </div>
      );
 }
+//{props.title}
 
 export default History;

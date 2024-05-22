@@ -12,7 +12,7 @@ type Post = {
 
 function Post({ image, postId }: Post) {
   return (
-    <div className="py-2 border-2 border-[#c4c4c4]">
+    <div className="py-2 border-2 border-[black]">
       <div className="ml-5 mb-3 flex gap-3 items-center ">
         <div className="w-10 h-10 bg-[#E5E5E5] rounded-full"></div>
         <span>Sobirov S</span>
