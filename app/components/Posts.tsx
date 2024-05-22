@@ -30,11 +30,10 @@ function Post({ image, postId }: Post) {
           <FaRegHeart size={25} />
         </button>
 
-        <Link href={"/comments/" + postId}>
           <button>
             <TbMessageCircle size={27} />
           </button>
-        </Link>
+    
 
         <button>
           <PiPaperPlaneTiltLight size={24} />
