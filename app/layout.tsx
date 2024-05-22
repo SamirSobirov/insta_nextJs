@@ -28,7 +28,10 @@ export default function RootLayout({
             <body className= {`${inter.className}`  }  >
                 <header className="py-3 border-b-2 ">
                     <div className="w-[95%] max-w-[1240px] flex justify-between items-center mx-auto my-0 ">
+                        <div className="flex gap-4">
+                        <img className="w-[40px] h-[40px]" src="icons/insta_logo.png" color="white" alt="Insta_Logo"  />
                         <img className="w-[120px] h-[40px]" src="icons/Logo.png" color="white" alt="Logo"  />
+                        </div>
                         <button className="rounded-lg px-20 py-2 flex items-center gap-1 bg-[#FAFAFA] border border-[#DBDBDB] text-[#9C9C9C]">
                             <CiSearch />
                             Search
